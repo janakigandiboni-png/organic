@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Organic Crops</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5fff5;
+}
+
+.crops{
+    padding:60px 8%;
+}
+
+.crops h2{
+    text-align:center;
+    color:#2e7d32;
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.crops p{
+    text-align:center;
+    color:#666;
+    margin-bottom:40px;
+}
+
+.crop-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.crop-card{
+    background:#fff;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.crop-card:hover{
+    transform:translateY(-8px);
+}
+
+.crop-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.crop-content{
+    padding:20px;
+}
+
+.crop-content h3{
+    color:#2e7d32;
+    margin-bottom:10px;
+}
+
+.crop-content p{
+    text-align:left;
+    margin-bottom:15px;
+    color:#555;
+}
+
+button{
+    background:#4CAF50;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:25px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#2e7d32;
+}
+</style>
+
+</head>
+<body>
+
+<section class="crops">
+
+<h2>Our Organic Crops</h2>
+
+<p>Fresh, chemical-free crops grown with sustainable farming practices.</p>
+
+<div class="crop-grid">
+
+<div class="crop-card">
+<img src="https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&w=800&q=80" alt="Tomatoes">
+<div class="crop-content">
+<h3>Organic Tomatoes</h3>
+<p>Rich in vitamins and grown naturally without pesticides.</p>
+<button>Learn More</button>
+</div>
+</div>
+
+<div class="crop-card">
+<img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=800&q=80" alt="Carrots">
+<div class="crop-content">
+<h3>Organic Carrots</h3>
+<p>Fresh, crunchy carrots packed with nutrients and antioxidants.</p>
+<button>Learn More</button>
+</div>
+</div>
+
+<div class="crop-card">
+<img src="https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=800&q=80" alt="Wheat">
+<div class="crop-content">
+<h3>Organic Wheat</h3>
+<p>Premium-quality wheat cultivated using eco-friendly methods.</p>
+<button>Learn More</button>
+</div>
+</div>
+
+<div class="crop-card">
+<img src="https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=800&q=80" alt="Spinach">
+<div class="crop-content">
+<h3>Organic Spinach</h3>
+<p>Leafy greens full of iron, vitamins, and natural goodness.</p>
+<button>Learn More</button>
+</div>
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>
